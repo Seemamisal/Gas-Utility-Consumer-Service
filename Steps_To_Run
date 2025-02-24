@@ -1,0 +1,12 @@
+
+
+Steps to Run the Project----
+Install Dependencies
+pip install django djangorestframework djangorestframework-simplejwt
+
+
+Apply Migrations & Run Server
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
